@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: supreming
+Build-Jdk: version 1.8.0_282
+Implementation-Title: login-server-demo
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.coding
+Main-Class: ${start-class}
+

@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sensorproject??useUnicode=ture&characterEncoding=UTF-8&serverTimezone=GMT%2B8&&characterEncoding=utf-8&useSSL=false
+    username: ${db_username:root}
+    password: ${db_password:123456}
+    driverClassName: com.mysql.jdbc.Driver
+  profiles:
+    include:
+      - mybatis
